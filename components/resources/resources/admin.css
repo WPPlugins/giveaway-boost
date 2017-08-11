@@ -1,0 +1,21 @@
+.gb-notification-dialog-wrap {
+	display: none;
+}
+
+.gb-notification-dialog-wrap .post-locked-message {
+	margin: 25px;
+}
+
+.gb-media-selector-action,
+.gb-media-selector-button {
+	margin-right: 6px !important;
+}
+
+.gb-error {
+	color: #990000 !important;
+}
+
+.gb-success {
+	color: #009900 !important;
+	vertical-align: bottom;
+}

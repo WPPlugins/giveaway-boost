@@ -1,0 +1,72 @@
+.gb-list {
+	margin-top: 0 !important;
+}
+
+.gb-spinner {
+	float: none;
+	margin: 0;
+}
+
+.gb-templates:after {
+	clear: left;
+	content: "";
+	display: table;
+}
+
+.gb-template {
+	display: block;
+	float: left;
+	margin-bottom: 2%;
+	margin-right: 2%;
+	overflow: hidden;
+	position: relative;
+	width: 32%;
+}
+
+.gb-template:nth-child(3n) {
+	margin-right: 0;
+}
+
+.gb-template-image {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	width: 100%;
+	z-index: 5;
+}
+
+.gb-template-radio {
+	left: 0;
+	margin: 0 !important;
+	padding: 0 !important;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+
+.gb-template-selected {
+	border: 5px solid #1e8cbe;
+	bottom: 0;
+	display: none;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.gb-template-radio:checked + .gb-template-selected {
+	display: block;
+}
+
+.gb-template-control .wp-color-result {
+	margin: 0;
+}
+
+.gb-actions {
+	padding: 0 !important;
+}
+
+.gb-action {
+	display: inline-block !important;
+	margin: 0 8px 0 0 !important;
+}
